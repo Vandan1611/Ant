@@ -721,7 +721,6 @@
             <selector refid="needs.jdk9+"/>
             <selector refid="not.in.kaffe" if="kaffe"/>
             <selector refid="needs.apache-resolver" unless="apache.resolver.present"/>
-            <selector refid="needs.junit" unless="junit.present"/> <!-- TODO should perhaps use -source 1.4? -->
             <selector refid="needs.junit4" unless="junit4.present"/>
             <selector refid="needs.junitlauncher" unless="junitlauncher.present"/>
             <selector refid="needs.junit.engine.vintage" unless="junit.engine.vintage.present"/>
